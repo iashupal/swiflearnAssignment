@@ -1,0 +1,29 @@
+.App {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.tabs, .tabs__content{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  border: 1;
+}
+.tabs{
+  border: 1.2px solid lightgray;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.tabs__content{
+  margin: 50px auto;
+  width: 93%;
+}
+@media screen and (max-width:550px){
+  .tabs{
+    width: 90%;
+    padding: 30px 10px;
+  }
+  .tabs__content{
+    width: 100%;
+  }
+}
